@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "issuedAt": "2026-11-23T05:52:40.9247925+00:00",
+  "expiresAt": "2026-12-23T05:52:40.9247925+00:00",
+  "sources": [
+    {
+      "kind": "official",
+      "manifestSha256": "2d32ae87febb3f67e66872fe284a3212c2952a96efab941e0ff051a35135f9a6",
+      "plugins": [
+        {
+          "id": "android-pad",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lenovo-sensors",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nvidia-gpu",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rimworld",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "streamdock-n3",
+          "versions": [
+            {
+              "version": "1.1.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weather",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xbox-controller",
+          "versions": [
+            {
+              "version": "1.2.0",
+              "rids": [
+                "win-x64"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

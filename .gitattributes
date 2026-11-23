@@ -1,0 +1,4 @@
+/hive-market.json -text
+/hive-market.sig binary
+/hive-repo.json -text
+/packages/** binary

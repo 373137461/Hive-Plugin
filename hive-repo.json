@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "android-pad",
+      "name": "安卓副屏",
+      "description": "通过 USB 或局域网连接安卓副屏，同步轮盘和模块，控制亮度、方向及手机本地电量保护。可选媒体波形传输、手机前摄头部检测，以及 root 手机经 USB 模拟键盘替情景宏发键。头部判断在手机完成。USB 需要 adb 和调试授权，局域网只需同一网络并打开副屏",
+      "category": "display",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.0.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/android-pad/1.0.0/win-x64.zip",
+                "size": 64036176,
+                "sha256": "7e96c65286dbd97a86b0b90d5986c33f62ac1304983f832fbc81aa3511445ab1"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "7f60498a1401c1ca17c08d3c78a1da136611e640eef320a5809644b75baf1953"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lenovo-sensors",
+      "name": "联想传感器",
+      "description": "CPU 温度、电池温度 / 电压 / 电流、环境光照度、联想性能模式状态与切换",
+      "category": "device",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.0.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/lenovo-sensors/1.0.0/win-x64.zip",
+                "size": 7115392,
+                "sha256": "d43329deaa9c3b7c8c6f2ac3653736ff1b9b3027e93384c5dacfbdbd9b42ecff"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "d091dc1be4be406880037f9517210ff1ff4d4e16afe0d17fa4f0d8807ff2b45e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-gpu",
+      "name": "NVIDIA 显卡",
+      "description": "显卡温度、使用率、功耗和频率（NVIDIA 驱动自带的 NVML，只读）",
+      "category": "device",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.0.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/nvidia-gpu/1.0.0/win-x64.zip",
+                "size": 105485,
+                "sha256": "3d6e0dd170fd1d1634bf8fe2cf10c5f513ddb978cdb2092c34d2bd6979c52b38"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "821b0df4b59158f1e745883fe5b2f0731796cda32adcaaf8e07ec07b4136c3c0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rimworld",
+      "name": "环世界副屏",
+      "description": "通过本机环世界1.6的蜂巢Mod读取当前地图概况，在应用模式显示并控制时间、定位殖民者；仅连接本机固定端口，不读写存档、不改变前台焦点。",
+      "category": "display",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.0.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/rimworld/1.0.0/win-x64.zip",
+                "size": 115518,
+                "sha256": "2e17984aeec320994e185b17ecac188812425dc86f6b5db4cda4c4cf04f9a4d9"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "d667f625271486149f3a259c83c7b24860623bd6c6b08f76f00603f2d939d067"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "streamdock-n3",
+      "name": "StreamDock N3",
+      "description": "外置扩展：六个屏幕键、三个圆键、三个旋钮（6602:1000）。StreamDock 原程序在运行时自动让出设备",
+      "category": "hardware",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.1.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/streamdock-n3/1.1.0/win-x64.zip",
+                "size": 198209,
+                "sha256": "645a437cefb9811a2c2b24c210b6a5f817815e62e65b32fd4f41a4a0def96720"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "e27c12ee813dfbee4faa4f90131c003d21969132dde977ef50daeaaae0e1bed2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "天气",
+      "description": "实况、未来 24 小时逐小时、三天预报、日出日落、空气质量（WeatherAPI）。只把地点和 API key 发给 api.weatherapi.com，不上传本机数据",
+      "category": "daily",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.0.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/weather/1.0.0/win-x64.zip",
+                "size": 112020,
+                "sha256": "7272399c5eba41c09ccf264a619338e975296c326be841ca7e11d1f5259ee9e1"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "4e363a088a27ae34c1fc3eb52de927306a34bc1143baca61af348b5886dbd723"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xbox-controller",
+      "name": "Xbox 手柄",
+      "description": "Xbox 手柄的按键、摇杆、扳机和震动（系统自带 XInput，有线、无线适配器、蓝牙都可以）。多个手柄时用最先连上的那个",
+      "category": "hardware",
+      "author": {
+        "name": "蜂巢",
+        "url": "https://github.com/373137461"
+      },
+      "releases": [
+        {
+          "version": "1.2.0",
+          "notes": "官方市场首发。",
+          "targets": [
+            {
+              "rid": "win-x64",
+              "host": {
+                "minVersion": "0.2.5",
+                "protocol": 1
+              },
+              "requires": [],
+              "package": {
+                "kind": "git",
+                "path": "packages/xbox-controller/1.2.0/win-x64.zip",
+                "size": 114446,
+                "sha256": "42dafbe989e351f7d517b2669127c0dd2ed2625ebf3711e138d25114f2653b68"
+              },
+              "signature": {
+                "type": "hive-authenticode",
+                "certificateSha256": "299acd998bf713a3d4f2c073723d87f0d003edd6fb36fce16b13883f6fac3008"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
