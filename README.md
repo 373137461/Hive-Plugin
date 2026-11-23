@@ -2,6 +2,8 @@
 
 这是蜂巢（Hive）的官方插件市场，提供硬件监控、安卓副屏、天气查询和游戏联动等插件。安装需要包含插件市场功能的 Windows x64 蜂巢构建。请先确认「设置 → 插件」中有「插件市场」入口，再打开市场查看并安装兼容插件。
 
+蜂巢通过 Releases 的小型签名目录读取市场列表。安装时按目录指定的 Git 提交下载所选插件包。 [下载最新签名目录](https://github.com/373137461/Hive-Plugin/releases/latest/download/hive-market-catalog.zip)
+
 ## 官方插件
 
 下表按类型分组，每组按最低蜂巢版本从低到高排列。每行对应本仓库已上架的一个版本及平台包。最低蜂巢版本是该插件包的兼容要求。 [市场索引](hive-market.json) · [插件清单](hive-repo.json)
@@ -48,3 +50,5 @@
 ```shell
 python scripts/update_readme.py
 ```
+
+正式上架由蜂巢作者完成。签名目录中的官方来源记录包含插件包和 `hive-repo.json` 的完整 Git 提交号。将签好的 `hive-market.json`、`hive-market.sig` 和 `hive-repo.json` 同步到默认分支，并打包为 `hive-market-catalog.zip` 作为 Release 附件。目录 Release 使用 `catalog-r<revision>` 标签并标为 Latest。仅用于托管插件包的 Release 保留自己的标签，将 Latest 留给市场目录。
